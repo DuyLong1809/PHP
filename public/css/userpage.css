@@ -1,0 +1,388 @@
+/* Giới thiệu*/
+.maincontentgt{
+    margin-top: 5px;
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid rgb(209, 209, 209);
+}
+.maincontentgt-head{
+    margin-left: 20px;
+}
+.maincontentgt-head-tittle{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.maincontentgt-head-nd{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    color: rgb(55, 55, 55);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 18px;
+}
+.maincontentgt-bot{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+/* Liên hệ */
+.maincontentgt-head-tittle1{
+    font-size: 19px;
+    border-bottom: 1px solid tomato ;
+}
+.maincontentgt-head-tt{
+    display: flex;
+    border-bottom: 1px dotted rgb(167, 166, 166) ;
+}
+.maincontentgt-head-tt-list ul{
+    list-style: none;
+}
+.maincontentgt-head-tt-list-iteam1{
+    font-size: 19px;
+}
+.maincontentgt-head-tt-list-iteam2{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.maincontentgt-head-tittle2{
+    font-size: 19px;
+    color: tomato;
+}
+/* Page danh mục sản phẩm */
+.sidebar-list-iteam1{
+    color: tomato;
+}
+
+/* Giay css */
+.maingiay{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.main-left{
+    width: 75%;
+    margin-right: 6px;
+}
+.main-right{
+    width: 24%;
+}
+.main-left-buy{
+    display: flex;
+}
+.main-left-buy-sp{
+    width: 50%;
+}
+/* slide show */
+* {box-sizing:border-box}
+/* thiết lập style cho slideshow container */
+ .slideshow-container {
+   max-width: 1000px;
+   height: 300px;
+   position: relative;
+   margin: auto;
+ }
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+   display: none;
+ }
+/* thiết kế nút mũi tên*/
+ .prev, .next {
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   width: auto;
+   margin-top: -22px;
+   padding: 16px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   transition: 0.6s ease;
+   border-radius: 0 3px 3px 0;
+   user-select: none;
+ }
+/* thiết kế nút mũi tên next nằm phía bên phải */
+ .next {
+   right: 0;
+   border-radius: 3px 0 0 3px;
+ }
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+ .prev:hover, .next:hover {
+   background-color: rgba(0,0,0,0.8);
+ }
+
+
+/* thiết lập style  nút tròn điều khiển*/
+ .dot {
+   cursor: pointer;
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+.active, .dot:hover {
+   background-color: #717171;
+ }
+/* tạo hiệu ứng chuyển động fade */
+ .fade {
+   -webkit-animation-name: fade;
+   -webkit-animation-duration: 1.5s;
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+@-webkit-keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+@keyframes fade {
+   from {opacity: .4}
+   to {opacity: 1}
+ }
+
+.main-left-buy-gia{
+    width: 50%;
+    height: 500px;
+    border: 1px solid #dddddd;
+}
+.main-left-buy-gia-top-title{
+    display: flex;
+}
+.main-left-buy-gia-top-title1{
+    margin-left: 30px;
+}
+.main-left-buy-gia-top h1{
+    color: rgb(114, 112, 112);
+}
+.main-left-buy-gia-top b{
+    color: rgb(114, 112, 112);
+}
+
+.main-left-buy-gia-top-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.main-left-buy-gia-top-icon{
+    margin-left: 5px;
+    color: yellow;
+}
+.main-left-buy-gia-top-gia{
+    display: flex;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+.main-left-buy-gia-top-gia1{
+    margin-left: 30px;
+    color: #bdbdbd;
+    font-weight: inherit;
+    font-size: 26px;
+    text-decoration: line-through;
+}
+.main-left-buy-gia-top-gia2{
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.main-left-buy-gia-bot-tinhtrang li{
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-left-buy-gia-bot-tinhtrang span{
+    color: red;
+}
+.main-left-buy-gia-bot-size{
+    float: left;
+}
+.main-left-buy-gia-bot-size1{
+    margin-left: 24px;
+    float: left;
+}
+.main-left-buy-gia-bot-size1-tt{
+    font-weight: bold;
+    font-size: 24px;
+}
+.main-left-buy-gia-bot-size2{
+    width: 36px;
+    height: 36px;
+    border: 1px solid #d4d4d4;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.size{
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-left-buy-gia-bot-btn{
+    margin-top: 30px;
+    margin-left: 90px;
+    width: 60%;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+.main-left-buy-gia-bot-btn{
+    color: white;
+    font-weight: bold;
+}
+.main-right-top{
+    width: 100%;
+}
+.main-right-top-cs{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: tomato;
+    border-bottom: 2px solid #aaaaaa;
+    text-transform: uppercase;
+}
+.main-right-top-cs span{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.main-right-top-listcs{
+    padding: 10px;
+    border: 1px solid #dddddd;
+}
+.main-right-top-listcs ul{
+    list-style: none;
+    padding: 0;
+    counter-reset: item;
+}
+.main-right-top-listcs ul li{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-right-top-listcs ul li::before{
+    content: counter(item) "";
+    counter-increment: item;
+    background: #ff9c00;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 2px 7px;
+    margin-bottom: 5px;
+}
+.main-right-bot{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #dddddd;
+}
+.main-right-bot-cs{
+    width: 100%;
+    padding: 15px 10px;
+    background-color: tomato;
+    border-bottom: 2px solid #aaaaaa;
+    text-transform: uppercase;
+}
+.main-right-bot-cs span{
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+.main-right-bot-listcs ul{
+    list-style: none;
+    padding: 0 20px;
+}
+.main-right-bot-listcs ul li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.main-right-bot-listcs span{
+    color: red;
+    font-weight: bold;
+}
+.main-left-tt{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.main-left-tt-tittle{
+    padding: 15px 15px;
+    width: 200px;
+    background-color: tomato;
+}
+.main-left-tt-tittle span{
+    border: none;
+    color: #ffffff;
+}
+.main-left-tt-sp{
+    border: 1px solid #dddddd;
+}
+.main-left-tt-sp-list-img{
+    width: 25%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.main-left-tt-sp-table{
+    margin: 0 auto;
+    max-width: 650px;
+    margin-bottom: 35px;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    line-height: 1.4;
+}
+.main-left-tt-sp-table tbody th td{
+    border-bottom: 1px solid #e6e6e6;
+    text-transform: none;
+    font-size: 14px;
+}
+/* Hoa don CSS */
+.main-hoadon{
+    display: flex;
+}
+.main-tthoadon{
+    width: 33%;
+    height: 600px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.main-ttvanchuyen{
+    width: 33%;
+    height: 600px;
+    border: 1px solid black;
+    
+}
+.main-ttsanpham{
+    width: 33%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+/* Đăng kí tài khoản người dùng */
+.register-user-tittle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-transform: uppercase;
+    border-bottom: 3px solid coral;
+}
+.register-user-form{
+    width: 60%;
+    margin: 40px auto;
+}
+.register-user-form-form-group{
+    margin-top: 10px;
+    display: flex;
+}
+.register-user-form-form-group label{
+   width: 20%;
+}
+.form-control{
+    width: 80%;
+    height: 30px;
+    float: right;
+}

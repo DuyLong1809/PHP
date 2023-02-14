@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+}
+.body-right-qlkh{
+    float: right;
+    margin-top: 0;
+}
+.container{
+    width: 78%;
+    margin-top: 0;
+}

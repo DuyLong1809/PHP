@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url("../IMG/avt/background.jpg");
+}
+.title{
+    text-align: center;
+    color: rgb(44, 235, 248);
+    padding-top: 60px;
+    font-size: 3.6rem;
+}
+.title1{
+    text-align: center;
+    color: rgb(44, 235, 248) ;
+    font-size: 3.6rem;
+}
+.title2{
+    color: blue;
+    font-size: 2.4rem;
+    text-align: center;
+    padding-top: 40px;
+}
+.loginform{
+    margin-left: auto;
+    margin-right: auto ;
+    width: 300px;
+    height: 350px;
+    background-color:rgba(255, 255, 255, 0.726) ;
+}
+.table{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.name{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+.button{
+    padding-top: 30px;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(#f75151 5%, #ffdd7f 100%);
+    border: 1px solid #e5a900;
+    color: #2e2b2b;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}
+.btn1{
+    text-decoration: none;
+}
